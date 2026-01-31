@@ -188,7 +188,7 @@ main section{
 	text-align: left;
 }
 	/* nested sections inside main section */
-main section section {                         
+main section > section {                         
 	background-color: var(--Purple);
 	border-radius: 12px;
 	padding: 1rem 1rem 0;
